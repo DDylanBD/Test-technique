@@ -499,6 +499,19 @@ body, h1, h2, p {
     }
 }
 
+@media screen and (max-width: 667px) {
+    .footer {
+        height: 131vh;
+    }
+    .containerFooterDes, .containerFooterDes2, .containerFooterDes3 {
+        height: 35%;
+        width: 100%;
+    }
+    .containerFooter {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 477px) {
     .bandeau2 {
         height: 94vh;
